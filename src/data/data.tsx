@@ -23,8 +23,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Alan Tai' + '\'s' + 'Resume',
+  description: "Projects, resume, and contact information for Alan Tai",
 };
 
 /**
