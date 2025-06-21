@@ -1,19 +1,13 @@
-import {
-  AcademicCapIcon,
-  CalendarIcon,
-  FlagIcon,
-  MapIcon,
-  SparklesIcon,
-} from '@heroicons/react/24/outline';
+import {AcademicCapIcon, CalendarIcon, FlagIcon, MapIcon, SparklesIcon} from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/resume1.jpg';
-import porfolioImage2 from '../images/portfolio/postureMAXX.png';
 import porfolioImage3 from '../images/portfolio/ADHDLIST.png';
 import porfolioImage4 from '../images/portfolio/icon.png';
+import porfolioImage2 from '../images/portfolio/postureMAXX.png';
+import porfolioImage1 from '../images/portfolio/resume1.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -62,12 +56,13 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm an aspiring <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently a student
-        at <strong className="text-stone-100">Northeastern University</strong> as a Computer Science Major, Economics minor.
+        I'm an aspiring <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently a student at{' '}
+        <strong className="text-stone-100">Northeastern University</strong> as a Computer Science Major, Economics
+        minor.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me <strong className="text-stone-100">Lifting Weights</strong>,
-        playing <strong className="text-stone-100">Valorant</strong>, or exploring different{' '}
+        In my free time time, you can catch me <strong className="text-stone-100">Lifting Weights</strong>, playing{' '}
+        <strong className="text-stone-100">Valorant</strong>, or exploring different{' '}
         <strong className="text-stone-100">Restauraunts</strong>.
       </p>
     </>
@@ -94,7 +89,7 @@ Please feel free to contact me at talan4030@gmail.com for any inquiries or colla
     {label: 'Age', text: '18', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Chinese', Icon: FlagIcon},
     {label: 'Interests', text: 'Lifting, Eating, Playing Valorant', Icon: SparklesIcon},
-    {label: 'Study', text: 'Northeastern University', Icon: AcademicCapIcon}
+    {label: 'Study', text: 'Northeastern University', Icon: AcademicCapIcon},
   ],
 };
 
@@ -184,7 +179,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'PostureMAXX',
-    description: 'PostureMAXX won third place at ViTAL' + '\'s' + ' First Hackathon EVER! Click hear to learn more.',
+    description: 'PostureMAXX won third place at ViTAL' + "'s" + ' First Hackathon EVER! Click hear to learn more.',
     url: 'https://www.linkedin.com/feed/update/urn:li:activity:7312631674532446208/',
     image: porfolioImage2,
   },

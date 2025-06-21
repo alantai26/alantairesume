@@ -14,17 +14,17 @@ const Portfolio: FC = memo(() => {
     <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col gap-y-8">
         <h2 className="self-center text-xl font-bold text-white">Projects:</h2>
-                      <div className="grid w-full grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
-                        {portfolioItems.map((item) => {
-                          const {title, image} = item;
-                          return (
+        <div className="grid w-full grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+          {portfolioItems.map(item => {
+            const {title, image} = item;
+            return (
               <div
                 className={classNames(
                   'relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
                 )}>
-                  <Image alt={title} className="h-full w-full" placeholder="blur" src={image} />
-                  <ItemOverlay item={item} />
-                </div>
+                <Image alt={title} className="h-full w-full" placeholder="blur" src={image} />
+                <ItemOverlay item={item} />
+              </div>
             );
           })}
         </div>
