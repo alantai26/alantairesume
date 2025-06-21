@@ -4,10 +4,10 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
+import porfolioImage1 from '../images/portfolio/resume1.jpg';
+import porfolioImage2 from '../images/portfolio/postureMAXX.png';
 import porfolioImage3 from '../images/portfolio/ADHDLIST.png';
 import porfolioImage4 from '../images/portfolio/icon.png';
-import porfolioImage2 from '../images/portfolio/postureMAXX.png';
-import porfolioImage1 from '../images/portfolio/resume1.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
