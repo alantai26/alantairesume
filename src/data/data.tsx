@@ -1,6 +1,5 @@
 import {
   AcademicCapIcon,
-  ArrowDownTrayIcon,
   CalendarIcon,
   FlagIcon,
   MapIcon,
