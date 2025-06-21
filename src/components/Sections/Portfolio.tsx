@@ -15,25 +15,17 @@ const Portfolio: FC = memo(() => {
       <div className="flex flex-col gap-y-8">
         <h2 className="self-center text-xl font-bold text-white">Projects:</h2>
         <div className="grid w-full grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
-          
           {portfolioItems.map((item, index) => {
             // Make sure to get width and height from the item here
-            const {title, image, width, height} = item; 
+            const {title, image, width, height} = item;
             return (
               <div
-                key={`${title}-${index}`}
                 className={classNames(
                   'relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
-                )}>
-                
+                )}
+                key={`${title}-${index}`}>
                 {/* Pass the width and height props to the Image component */}
-                <Image
-                  alt={title}
-                  src={image}
-                  width={width}
-                  height={height}
-                  className="h-full w-full object-cover"
-                />
+                <Image alt={title} className="h-full w-full object-cover" height={height} src={image} width={width} />
 
                 <ItemOverlay item={item} />
               </div>

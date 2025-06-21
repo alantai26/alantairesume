@@ -172,7 +172,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'NUGuessr won Beginner Award at HackBeanPot 2025! Click hear to learn more.',
     url: 'https://www.linkedin.com/feed/update/urn:li:activity:7294796933263458304/',
     image: '/images/resume1.jpg',
-    width: 1200,  // <-- Add width
+    width: 1200, // <-- Add width
     height: 900, // <-- Add height
   },
   {
@@ -180,7 +180,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'PostureMAXX won third place at ViTAL' + "'s" + ' First Hackathon EVER! Click hear to learn more.',
     url: 'https://www.linkedin.com/feed/update/urn:li:activity:7312631674532446208/',
     image: '/images/posturemaxx.png',
-    width: 1200,  // <-- Add width
+    width: 1200, // <-- Add width
     height: 900, // <-- Add height
   },
   {
@@ -188,7 +188,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'ADHDList is a personal project to help users manage their daily tasks and routines.',
     url: '',
     image: '/images/ADHDLIST.png',
-    width: 1200,  // <-- Add width
+    width: 1200, // <-- Add width
     height: 900, // <-- Add height
   },
   {
@@ -196,7 +196,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'A simple web app that tailors a schedule for the user to drink water based on their preferences.',
     url: 'https://alantai26.github.io/watereminder1/',
     image: '/images/icon.png',
-    width: 1200,  // <-- Add width
+    width: 1200, // <-- Add width
     height: 900, // <-- Add height
   },
 ];
