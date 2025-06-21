@@ -15,17 +15,16 @@ const Portfolio: FC = memo(() => {
       <div className="flex flex-col gap-y-8">
         <h2 className="self-center text-xl font-bold text-white">Projects:</h2>
         <div className="grid w-full grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
-          
           {/* We need the 'index' here to use for the key prop */}
           {portfolioItems.map((item, index) => {
             const {title, image} = item;
             return (
               <div
                 // This 'key' prop is required by React for lists and is very important
-                key={`${title}-${index}`}
                 className={classNames(
                   'relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
-                )}>
+                )}
+                key={`${title}-${index}`}>
                 <Image
                   alt={title}
                   // Added 'object-cover' to ensure images fill the space without distortion
