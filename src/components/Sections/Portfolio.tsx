@@ -13,20 +13,18 @@ const Portfolio: FC = memo(() => {
   return (
     <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col gap-y-8">
-        <h2 className="self-center text-xl font-bold text-white">Check out some of my work</h2>
-        <div className=" w-full columns-2 md:columns-3 lg:columns-4">
-          {portfolioItems.map((item, index) => {
-            const {title, image} = item;
-            return (
-              <div className="pb-6" key={`${title}-${index}`}>
-                <div
-                  className={classNames(
-                    'relative h-max w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
-                  )}>
+        <h2 className="self-center text-xl font-bold text-white">Projects:</h2>
+                      <div className="grid w-full grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+                        {portfolioItems.map((item) => {
+                          const {title, image} = item;
+                          return (
+              <div
+                className={classNames(
+                  'relative aspect-[4/3] w-full overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl',
+                )}>
                   <Image alt={title} className="h-full w-full" placeholder="blur" src={image} />
                   <ItemOverlay item={item} />
                 </div>
-              </div>
             );
           })}
         </div>
@@ -77,7 +75,7 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
           <h2 className="text-center font-bold text-white opacity-100">{title}</h2>
           <p className="text-xs text-white opacity-100 sm:text-sm">{description}</p>
         </div>
-        <ArrowTopRightOnSquareIcon className="absolute bottom-1 right-1 h-4 w-4 shrink-0 text-white sm:bottom-2 sm:right-2" />
+        <ArrowTopRightOnSquareIcon className="absolute bottom-1 right-1 h-4 w-4 text-white sm:bottom-2 sm:right-2" />
       </div>
     </a>
   );

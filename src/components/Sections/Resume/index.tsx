@@ -1,33 +1,35 @@
+// src/components/Sections/Resume/index.tsx
+
 import {FC, memo} from 'react';
 
-import {education, experience, SectionId, skills} from '../../../data/data';
+import {SectionId} from '../../../data/data';
 import Section from '../../Layout/Section';
-import ResumeSection from './ResumeSection';
-import {SkillGroup} from './Skills';
-import TimelineItem from './TimelineItem';
 
 const Resume: FC = memo(() => {
   return (
+    // We keep the Section wrapper for consistent site layout and navigation
     <Section className="bg-neutral-100" sectionId={SectionId.Resume}>
-      <div className="flex flex-col divide-y-2 divide-neutral-300">
-        <ResumeSection title="Education">
-          {education.map((item, index) => (
-            <TimelineItem item={item} key={`${item.title}-${index}`} />
-          ))}
-        </ResumeSection>
-        <ResumeSection title="Work">
-          {experience.map((item, index) => (
-            <TimelineItem item={item} key={`${item.title}-${index}`} />
-          ))}
-        </ResumeSection>
-        <ResumeSection title="Skills">
-          <p className="pb-8">Here you can show a snapshot of your skills to show off to employers</p>
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-            {skills.map((skillgroup, index) => (
-              <SkillGroup key={`${skillgroup.name}-${index}`} skillGroup={skillgroup} />
-            ))}
-          </div>
-        </ResumeSection>
+      <div className="flex w-full flex-col items-center justify-center gap-y-8 py-8">
+
+        {/* --- Embed the Resume PDF --- */}
+        <object
+          aria-label="My Resume PDF"
+          className="h-[1100px] w-full max-w-5xl rounded-lg shadow-2xl" // Set a height for the PDF viewer
+          data="/images/resume.pdf" // This path now correctly points to the public folder
+        >
+            {/* Fallback content for browsers that don't support embedding PDFs */}
+            <p>Your browser does not support embedded PDFs. Please download the PDF to view it.</p>
+        </object>
+
+        {/* --- The PDF Download Button --- */}
+        <a
+          className="rounded-full bg-orange-500 px-6 py-3 text-lg font-semibold text-white shadow-md transition-transform duration-200 hover:scale-105 hover:bg-orange-600"
+          href="/images/resume.pdf"
+          download="resume.pdf"
+        >
+          Download PDF
+        </a>
+        
       </div>
     </Section>
   );
