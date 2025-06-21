@@ -4,10 +4,6 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage3 from '../images/portfolio/ADHDLIST.png';
-import porfolioImage4 from '../images/portfolio/icon.png';
-import porfolioImage2 from '../images/portfolio/posturemaxx.png';
-import porfolioImage1 from '../images/portfolio/resume1.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -175,25 +171,33 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'NUGuessr',
     description: 'NUGuessr won Beginner Award at HackBeanPot 2025! Click hear to learn more.',
     url: 'https://www.linkedin.com/feed/update/urn:li:activity:7294796933263458304/',
-    image: porfolioImage1,
+    image: '/images/resume1.jpg',
+    width: 1200,  // <-- Add width
+    height: 900, // <-- Add height
   },
   {
     title: 'PostureMAXX',
     description: 'PostureMAXX won third place at ViTAL' + "'s" + ' First Hackathon EVER! Click hear to learn more.',
     url: 'https://www.linkedin.com/feed/update/urn:li:activity:7312631674532446208/',
-    image: porfolioImage2,
+    image: '/images/posturemaxx.png',
+    width: 1200,  // <-- Add width
+    height: 900, // <-- Add height
   },
   {
     title: 'ADHDList',
     description: 'ADHDList is a personal project to help users manage their daily tasks and routines.',
     url: '',
-    image: porfolioImage3,
+    image: '/images/ADHDLIST.png',
+    width: 1200,  // <-- Add width
+    height: 900, // <-- Add height
   },
   {
     title: 'WaterMinder',
     description: 'A simple web app that tailors a schedule for the user to drink water based on their preferences.',
     url: 'https://alantai26.github.io/watereminder1/',
-    image: porfolioImage4,
+    image: '/images/icon.png',
+    width: 1200,  // <-- Add width
+    height: 900, // <-- Add height
   },
 ];
 
