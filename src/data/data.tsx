@@ -23,7 +23,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Alan Tai' + '\'s' + 'Resume',
+  title: 'Alan Tai' + '\'s' + ' Resume',
   description: "Projects, resume, and contact information for Alan Tai",
 };
 
