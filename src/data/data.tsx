@@ -168,6 +168,14 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'GYMBROAI',
+    description: 'A web app that assists users with their workout form and gives real time feedback using AI voice',
+    url: 'https://youtu.be/N7-vfCMKyMo?si=qW98lBnJ4ixdCBXG',
+    image: '/images/asdasd.png',
+    width: 1200, // <-- Add width
+    height: 900, // <-- Add height
+  },
+  {
     title: 'NUGuessr',
     description: 'NUGuessr won Beginner Award at HackBeanPot 2025! Click hear to learn more.',
     url: 'https://www.linkedin.com/feed/update/urn:li:activity:7294796933263458304/',
@@ -199,6 +207,7 @@ export const portfolioItems: PortfolioItem[] = [
     width: 1200, // <-- Add width
     height: 900, // <-- Add height
   },
+  
 ];
 
 export const experience: TimelineItem[] = [
