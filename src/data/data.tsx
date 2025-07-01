@@ -169,7 +169,7 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'GYMBROAI',
-    description: 'A web app that assists users with their workout form and gives real time feedback using AI voice',
+    description: 'A web app that assists users with their workout form and gives real time feedback using AI voice.',
     url: 'https://youtu.be/N7-vfCMKyMo?si=qW98lBnJ4ixdCBXG',
     image: '/images/asdasd.png',
     width: 1200, // <-- Add width
