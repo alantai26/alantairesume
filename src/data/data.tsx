@@ -81,9 +81,8 @@ export const aboutData: About = {
 
 Please feel free to contact me at talan4030@gmail.com for any inquiries or collaboration opportunities.`,
   aboutItems: [
-    {label: 'Location', text: 'Hackettstown, New Jersey or Boston, MA', Icon: MapIcon},
-    {label: 'Age', text: '18', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Chinese', Icon: FlagIcon},
+    {label: 'Location', text: 'New Jersey or Boston, MA', Icon: MapIcon},
+    {label: 'Nationality', text: 'American', Icon: FlagIcon},
     {label: 'Interests', text: 'Lifting, Eating, Playing Valorant', Icon: SparklesIcon},
     {label: 'Study', text: 'Northeastern University', Icon: AcademicCapIcon},
   ],
