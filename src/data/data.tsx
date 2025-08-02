@@ -1,4 +1,4 @@
-import {AcademicCapIcon, CalendarIcon, FlagIcon, MapIcon, SparklesIcon} from '@heroicons/react/24/outline';
+import {AcademicCapIcon, FlagIcon, MapIcon, SparklesIcon} from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
@@ -167,44 +167,52 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'StudyBuddies',
+    description: 'A full stack app that helps you find your classmates with a scan of your schedule!',
+    url: '',
+    image: '/images/Study (2).png',
+    width: 800, // <-- Add width
+    height: 800, // <-- Add height
+  },
+  {
     title: 'GYMBROAI',
     description: 'A web app that assists users with their workout form and gives real time feedback using AI voice.',
     url: 'https://youtu.be/N7-vfCMKyMo?si=qW98lBnJ4ixdCBXG',
     image: '/images/asdasd.png',
-    width: 1200, // <-- Add width
-    height: 900, // <-- Add height
+    width: 800, // <-- Add width
+    height: 800, // <-- Add height
   },
   {
     title: 'NUGuessr',
     description: 'NUGuessr won Beginner Award at HackBeanPot 2025! Click hear to learn more.',
     url: 'https://www.linkedin.com/feed/update/urn:li:activity:7294796933263458304/',
     image: '/images/resume1.jpg',
-    width: 1200, // <-- Add width
-    height: 900, // <-- Add height
+    width: 800, // <-- Add width
+    height: 800, // <-- Add height
   },
   {
     title: 'PostureMAXX',
     description: 'PostureMAXX won third place at ViTAL' + "'s" + ' First Hackathon EVER! Click hear to learn more.',
     url: 'https://www.linkedin.com/feed/update/urn:li:activity:7312631674532446208/',
     image: '/images/posturemaxx.png',
-    width: 1200, // <-- Add width
-    height: 900, // <-- Add height
+    width: 800, // <-- Add width
+    height: 800, // <-- Add height
   },
   {
     title: 'ADHDList',
     description: 'ADHDList is a personal project to help users manage their daily tasks and routines.',
     url: '',
     image: '/images/ADHDLIST.png',
-    width: 1200, // <-- Add width
-    height: 900, // <-- Add height
+    width: 800, // <-- Add width
+    height: 800, // <-- Add height
   },
   {
     title: 'WaterMinder',
     description: 'A simple web app that tailors a schedule for the user to drink water based on their preferences.',
     url: 'https://alantai26.github.io/watereminder1/',
     image: '/images/icon.png',
-    width: 1200, // <-- Add width
-    height: 900, // <-- Add height
+    width: 800, // <-- Add width
+    height: 800, // <-- Add height
   },
   
 ];
