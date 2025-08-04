@@ -57,7 +57,7 @@ export const heroData: Hero = {
         minor.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me <strong className="text-stone-100">Lifting Weights</strong>, playing{' '}
+        In my free time time, you can catch me <strong className="text-stone-100">Solving Rubix Cubes</strong>, playing{' '}
         <strong className="text-stone-100">Valorant</strong>, or exploring different{' '}
         <strong className="text-stone-100">Restauraunts</strong>.
       </p>
@@ -77,8 +77,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `My name is Alan Tai, and I am currently a second-year student at Northeastern University pursuing a major in Computer Science with a minor in Economics. I am particularly interested in specializing in Software Engineering, as I am fascinated by the process of designing efficient and scalable software systems. I am eager to expand my knowledge in these areas through both rigorous coursework and practical experiences, such as co-op opportunities and projects. 
-
+  description: `I'm Alan Tai, a second-year Computer Science major with a minor in Economics at Northeastern University. I'm specializing in Software Engineering, drawn to the challenge of designing efficient and scalable software systems. Currently, I'm developing a full-stack website that helps students find classmates based on their course registration numbers (CRNs), which has taught me a lot about database management and live chat implementation. I'm eager to build on this experience through rigorous coursework and practical opportunities, like co-ops.
 Please feel free to contact me at talan4030@gmail.com for any inquiries or collaboration opportunities.`,
   aboutItems: [
     {label: 'Location', text: 'New Jersey or Boston, MA', Icon: MapIcon},
