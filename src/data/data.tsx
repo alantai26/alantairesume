@@ -83,7 +83,7 @@ Please feel free to contact me at talan4030@gmail.com for any inquiries or colla
   aboutItems: [
     {label: 'Location', text: 'New Jersey or Boston, MA', Icon: MapIcon},
     {label: 'Nationality', text: 'American', Icon: FlagIcon},
-    {label: 'Interests', text: 'Lifting, Eating, Playing Valorant', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Rubix Cube, Eating, Playing Valorant', Icon: SparklesIcon},
     {label: 'Study', text: 'Northeastern University', Icon: AcademicCapIcon},
   ],
 };
