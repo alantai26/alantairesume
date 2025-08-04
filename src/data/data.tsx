@@ -77,7 +77,8 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm Alan Tai, a second-year Computer Science major with a minor in Economics at Northeastern University. I'm specializing in Software Engineering, drawn to the challenge of designing efficient and scalable software systems. Currently, I'm developing a full-stack website that helps students find classmates based on their course registration numbers (CRNs), which has taught me a lot about database management and live chat implementation. I'm eager to build on this experience through rigorous coursework and practical opportunities, like co-ops.
+  description: `I'm Alan Tai, a second-year Computer Science student at Northeastern University, minoring in Economics. My passion lies in Software Engineering, where I enjoy designing efficient and scalable systems. Currently, I'm developing a full-stack website that helps students find classmates using their CRN's, a project that has deepened my knowledge of database management and live chat implementation. I'm eager to gain more practical experience and expand my skills through co-op opportunities.                                 
+
 Please feel free to contact me at talan4030@gmail.com for any inquiries or collaboration opportunities.`,
   aboutItems: [
     {label: 'Location', text: 'New Jersey or Boston, MA', Icon: MapIcon},
