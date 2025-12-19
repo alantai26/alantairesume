@@ -13,8 +13,8 @@ const Resume: FC = memo(() => {
         {/* --- Embed the Resume PDF --- */}
         <object
           aria-label="My Resume PDF"
-          className="h-[1100px] w-full max-w-5xl rounded-lg shadow-2xl" // Set a height for the PDF viewer
-          data="/images/Alan Tai SWE Resume 12-15.pdf" // This path now correctly points to the public folder
+          className="h-[1100px] w-full max-w-5xl rounded-lg shadow-2xl"
+          data="/images/Alan Tai SWE Resume 12-18.pdf"
         >
           {/* Fallback content for browsers that don't support embedding PDFs */}
           <p>Your browser does not support embedded PDFs. Please download the PDF to view it.</p>
